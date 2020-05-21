@@ -43,10 +43,5 @@ A seguir estão os tópicos de conteúdo de cada módulo:
 ##### 6- Fechamento
 - Entrega do Desafio Final.
 #### Modulos
-* [Modulo-01]()
+* [Modulo-01](https://github.com/Collumbus/Bootcamp-Analista-de-Dados-IGTI/tree/master/Modulo-01)
 * [Modulo-02]() (em andamento)
-* [Modulo-02]() (em andamento)
-* [Modulo-03]() (em andamento)
-* [Modulo-04]() (em andamento)
-* [Modulo-05]() (em andamento)
-* [Modulo-06]() (em andamento)
