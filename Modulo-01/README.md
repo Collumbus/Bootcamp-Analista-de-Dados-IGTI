@@ -144,7 +144,7 @@ O banco de dados gerado é baseado no livro “Sistemas de Banco de Dados” de 
 
 ![BD01](plots/bd01.png)
 
-* [Notebook do Desafio 01](https://github.com/Collumbus/Bootcamp-Analista-de-Dados-IGTI/blob/master/Modulo-01/desafio-01.ipynb)
+* [Notebook do Desafio 01](https://github.com/Collumbus/Bootcamp-Analista-de-Dados-IGTI/blob/master/Modulo-01/Desafio-01.ipynb)
 ##### OBS.: Neste repositório eu optei por utilizar o Jupyter Notebook e implementar as soluções das questões utilizando Python (Pandas, NumPy, psycopg2, Seaborn, etc) no lugar do Power BI e para realizar as consultas SQL.
 
 #### Pergunta 1
