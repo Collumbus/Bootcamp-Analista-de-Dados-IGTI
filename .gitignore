@@ -5,6 +5,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+#Customs
+Modulo-01/data/survey_results_public.csv
+
 # PyCharm
 .idea
 
