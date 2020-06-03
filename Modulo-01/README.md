@@ -168,21 +168,16 @@ Considere o banco de dados do enunciado. Crie uma consulta em SQL e responda: Qu
 
 R: 
 ```
+
 sql = '''
 SELECT  pnome , unome, dnome, pjnome
-FROM departamento AS de
-INNER JOIN
-projeto as pj
-ON de.dnumero = pj.dnum
-INNER JOIN
-trabalha_em as te
-On pj.pnumero = te.pno
-INNER JOIN
-empregado as em
-on te.essn = em.ssn
-WHERE de.dnumero = 5 AND 
-      te.horas > 10 AND 
-      pj.pjnome = 'ProductX'
+FROM departamento, projeto, trabalha_em, empregado
+WHERE dnumero = dnum AND
+      pnumero = pno AND
+      essn = ssn AND
+      dnumero = 5 AND 
+      horas > 10 AND 
+      pjnome = 'ProductX'
 '''
 con=ConectionPostgre('localhost','IGTI','postgres','postgres123')
 rs=con.consult(sql)
@@ -222,15 +217,13 @@ Considere o banco de dados do enunciado. Crie uma consulta em SQL e responda: Qu
 
 R: 
 ```
+
 sql = '''
 SELECT  COUNT(ssn)
-FROM empregado AS emp 
-INNER JOIN 
-dependente AS de 
-ON emp.ssn = de.essn 
-WHERE
-emp.pnome = de.nome_dependente
-GROUP BY emp.ssn
+FROM empregado, dependente
+WHERE ssn = essn AND
+      pnome = nome_dependente
+GROUP BY ssn
 '''
 con=ConectionPostgre('localhost','IGTI','postgres','postgres123')
 rs=con.consult(sql)
@@ -246,12 +239,9 @@ R:
 ```
 sql = '''
 SELECT  SUM(salario) AS Soma
-FROM empregado AS em
-INNER JOIN
-departamento as dep
-ON em.dno = dep.dnumero
-WHERE
-dep.dnome = 'Research'
+FROM empregado, departamento
+WHERE dno = dnumero AND
+      dnome = 'Research'
 '''
 con=ConectionPostgre('localhost','IGTI','postgres','postgres123')
 rs=con.consult(sql)
@@ -274,15 +264,10 @@ R:
 ```
 sql = '''
 SELECT  SUM(salario) * 1.1 AS Soma
-FROM empregado AS em
-INNER JOIN
-trabalha_em as te
-ON em.ssn = te.essn
-INNER JOIN
-projeto As pj
-ON te.pno = pj.pnumero
-WHERE
-pj.pjnome = 'ProductX'
+FROM empregado, trabalha_em, projeto
+WHERE ssn = essn AND
+      pno = pnumero AND
+      pjnome = 'ProductX'
 '''
 con=ConectionPostgre('localhost','IGTI','postgres','postgres123')
 rs=con.consult(sql)
@@ -297,16 +282,11 @@ R:
 ```
 sql = '''
 SELECT  pnome, horas
-FROM empregado AS em
-INNER JOIN
-trabalha_em as te
-ON em.ssn = te.essn
-INNER JOIN
-projeto As pj
-ON te.pno = pj.pnumero
-WHERE
-pj.pjnome = 'Newbenefits'
-ORDER BY te.horas DESC
+FROM empregado, trabalha_em, projeto
+WHERE ssn = essn AND
+      pno = pnumero AND
+      pjnome = 'Newbenefits' 
+ORDER BY horas DESC
 '''
 con=ConectionPostgre('localhost','IGTI','postgres','postgres123')
 rs=con.consult(sql)
@@ -361,17 +341,11 @@ R:
 ```
 sql = '''
 SELECT  dnome, AVG(salario) AS Média
-FROM departamento AS de
-INNER JOIN
-projeto as pj
-ON de.dnumero = pj.dnum
-INNER JOIN
-trabalha_em as te
-On pj.pnumero = te.pno
-INNER JOIN
-empregado as em
-on te.essn = em.ssn
-GROUP By de.dnome
+FROM departamento, projeto, trabalha_em, empregado
+WHERE dnumero = dnum AND
+      pnumero = pno AND
+      essn = ssn
+GROUP By dnome
 ORDER BY Média ASC
 '''
 con=ConectionPostgre('localhost','IGTI','postgres','postgres123')
