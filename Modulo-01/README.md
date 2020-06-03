@@ -168,7 +168,6 @@ Considere o banco de dados do enunciado. Crie uma consulta em SQL e responda: Qu
 
 R: 
 ```
-
 sql = '''
 SELECT  pnome , unome, dnome, pjnome
 FROM departamento, projeto, trabalha_em, empregado
@@ -217,7 +216,6 @@ Considere o banco de dados do enunciado. Crie uma consulta em SQL e responda: Qu
 
 R: 
 ```
-
 sql = '''
 SELECT  COUNT(ssn)
 FROM empregado, dependente
