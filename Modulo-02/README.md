@@ -28,8 +28,8 @@ Para esta atividade, o aluno deverá assistir atentamente as seguintes aulas, di
 2. Executando os comandos básicos do Ecossistema Hadoop e do HDFS;
 3. Criando, compilando e executando um Programa com o Hadoop/MapReduce;
 
-##### OBS.: Detalhes dos passos 1, 2 e 3 no pdf [Trabalho Prático - Módulo 2](https://github.com/Collumbus/Bootcamp-Analista-de-Dados-IGTI/blob/master/Modulo-02/)
-##### [Trabalho Prático 02 Resultados]()
+##### OBS.: Detalhes dos passos 1, 2 e 3 no pdf [Trabalho Prático - Módulo 2](https://github.com/Collumbus/Bootcamp-Analista-de-Dados-IGTI/blob/master/Modulo-02/Trabalho%20Pr%C3%A1tico%20-%20M%C3%B3dulo%202%20(Processamento%20de%20dados%20utilizando%20o%20Ecossistema).pdf)
+##### [Trabalho Prático 02 Resultados](https://github.com/Collumbus/Bootcamp-Analista-de-Dados-IGTI/blob/master/Modulo-02/Trabalho%20Pr%C3%A1tico%2002%20Resultados.pdf)
 
 
 ## Desafio do Módulo 2
@@ -47,4 +47,4 @@ Para essa atividade, o aluno deverá assistir atentamente as seguintes aulas, di
 2. Executando comandos básicos do Ecossistema Hadoop e do HDFS.
 3. Prática: importação e manipulação de dados: Manipulação de dados com o Hive.
 
-##### [Desafio Prático 02 Instruções e Resultados]()
+##### [Desafio Prático 02 Instruções e Resultados](https://github.com/Collumbus/Bootcamp-Analista-de-Dados-IGTI/blob/master/Modulo-02/Desafio%2002%20Instru%C3%A7%C3%B5es%20e%20Resultados.pdf)
