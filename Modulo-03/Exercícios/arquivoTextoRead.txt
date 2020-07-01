@@ -1,0 +1,14 @@
+Exemplo de coleta de dados em arquivos de texto.
+
+Nome completo	Joaquim Maria Machado de Assis
+Nascimento	21 de junho de 1839
+Rio de Janeiro, MN
+Império do Brasil
+Morte	29 de setembro de 1908 (69 anos)
+Rio de Janeiro, DF
+Estados Unidos do Brasil
+Nacionalidade	brasileiro
+Cônjuge	Carolina Augusta Xavier de Novais (1869–1904)
+Ocupação	Escritor, jornalista, contista, cronista, dramaturgo e poeta
+Movimento literário	Romantismo/Realismo
+Fonte: https://pt.wikipedia.org/wiki/Machado_de_Assis

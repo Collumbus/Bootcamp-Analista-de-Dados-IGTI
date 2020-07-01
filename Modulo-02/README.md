@@ -1,0 +1,50 @@
+# Modulo 2  
+
+## Conteúdo abordado
+- Modelo MapReduce
+- Hadoop: História e Ecossistema 
+- Hadoop: YARN
+- Hadoop: estrutura da ferramenta
+- Hadoop: funções, tolerância e falhas 
+- HDFS: conceitos, narmenodes e datanodes 
+- HDFS: operações básicas e interface gráfica
+- Classes JobConf e MapReduceBase
+- HDFS: diretórios e dados
+- Métodos configure e close e Função Combine
+- Depurando um job e algoritmos interativos
+- Parâmetros de Desempenho
+- Importação e manipulação de dados
+## Trabalho Prático do Módulo 1
+### Objetivos
+Exercitar os seguintes conceitos trabalhados no Módulo 2:
+- Manipular o HDFS (Hadoop Distributed FileSystem, formatando o sistema de arquivos e executando operações com arquivos e diretórios).
+- Acessar as ferramentas de Gerenciamento do Ecossistema Hadoop
+- Alterar o código fonte de um programa, compilá-lo e executá-lo.
+
+### Enunciado
+Para esta atividade, o aluno deverá assistir atentamente as seguintes aulas, disponíveis no ambiente virtual de aprendizagem, exatamente na ordem em que se apresenta abaixo:
+
+1. Instalando a máquina virtual;
+2. Executando os comandos básicos do Ecossistema Hadoop e do HDFS;
+3. Criando, compilando e executando um Programa com o Hadoop/MapReduce;
+
+##### OBS.: Detalhes dos passos 1, 2 e 3 no pdf [Trabalho Prático - Módulo 2](https://github.com/Collumbus/Bootcamp-Analista-de-Dados-IGTI/blob/master/Modulo-02/)
+##### [Trabalho Prático 02 Resultados]()
+
+
+## Desafio do Módulo 2
+### Objetivos
+Exercitar os seguintes conceitos trabalhados no Módulo 1:
+- Iniciar o Apache Hive.
+- Carregar uma base de dados para o HDFS.
+- Executar consultas na base de dados.
+- Analisar os resultados.
+
+### Enunciado
+Para essa atividade, o aluno deverá assistir atentamente as seguintes aulas, disponíveis no ambiente virtual de aprendizagem:
+
+1. Instalando a máquina virtual.
+2. Executando comandos básicos do Ecossistema Hadoop e do HDFS.
+3. Prática: importação e manipulação de dados: Manipulação de dados com o Hive.
+
+##### [Desafio Prático 02 Instruções e Resultados]()

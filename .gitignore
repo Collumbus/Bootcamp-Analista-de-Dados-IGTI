@@ -5,6 +5,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+#Virtual Box
+*.ova
+
 #Customs
 Modulo-01/data/survey_results_public.csv
 
@@ -156,6 +159,9 @@ cython_debug/
 # IPython
 profile_default/
 ipython_config.py
+
+### Customs
+credentials.py
 
 # Remove previous ipynb_checkpoints
 #   git rm -r .ipynb_checkpoints/

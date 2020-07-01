@@ -1,0 +1,2 @@
+Abri o arquivo D:\DataScience\Bootcamp-Analista-de-Dados-IGTI\Modulo-03\Exercícios\arquivoTextoWrite2.txt em modo de escrita (w)!
+--> Hoje é 18/06/2020, 12:59:34
