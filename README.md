@@ -46,4 +46,5 @@ A seguir estão os tópicos de conteúdo de cada módulo:
 * [Modulo-01](https://github.com/Collumbus/Bootcamp-Analista-de-Dados-IGTI/tree/master/Modulo-01)
 * [Modulo-02](https://github.com/Collumbus/Bootcamp-Analista-de-Dados-IGTI/tree/master/Modulo-02)
 * [Modulo-03](https://github.com/Collumbus/Bootcamp-Analista-de-Dados-IGTI/tree/master/Modulo-03)
-* [Modulo-04]() (Em andamento)
+* [Modulo-04](https://github.com/Collumbus/Bootcamp-Analista-de-Dados-IGTI/tree/master/Modulo-04)
+* [Modulo-04](https://github.com/Collumbus/Bootcamp-Analista-de-Dados-IGTI/tree/master/Modulo-Desafio)

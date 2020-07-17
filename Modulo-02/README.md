@@ -14,7 +14,7 @@
 - Depurando um job e algoritmos interativos
 - Parâmetros de Desempenho
 - Importação e manipulação de dados
-## Trabalho Prático do Módulo 1
+## Trabalho Prático do Módulo 2
 ### Objetivos
 Exercitar os seguintes conceitos trabalhados no Módulo 2:
 - Manipular o HDFS (Hadoop Distributed FileSystem, formatando o sistema de arquivos e executando operações com arquivos e diretórios).
@@ -34,7 +34,7 @@ Para esta atividade, o aluno deverá assistir atentamente as seguintes aulas, di
 
 ## Desafio do Módulo 2
 ### Objetivos
-Exercitar os seguintes conceitos trabalhados no Módulo 1:
+Exercitar os seguintes conceitos trabalhados no Módulo 2:
 - Iniciar o Apache Hive.
 - Carregar uma base de dados para o HDFS.
 - Executar consultas na base de dados.

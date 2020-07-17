@@ -1,4 +1,4 @@
-# Modulo 1  
+# Modulo 3  
 
 ## Conteúdo abordado
 - Dados e web semântica
@@ -28,7 +28,7 @@ Acessar arquivo [Enunciado Trabalho Prático 03](https://github.com/Collumbus/Bo
 
 ## Desafio do Módulo 3
 ### Objetivos
-Exercitar os seguintes conceitos trabalhados no Módulo 1:
+Exercitar os seguintes conceitos trabalhados no Módulo 3:
 - Uso do Power BI
 - SQL
 
